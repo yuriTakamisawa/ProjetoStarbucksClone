@@ -114,4 +114,73 @@ h1 {
 
 /* Banner Fim */
 
+/* Area 1 */
 
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1Content {
+    padding: 80px;
+}
+
+.bar {
+    width: 168px;
+    height: 22px;
+    background-color: #117050;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin: 20px 0;
+    line-height: 45px;
+    
+}
+
+.area1Quote {
+    margin-bottom: 30px;
+    
+}
+
+.area1Text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area1Img1 {
+    height: 350px;
+    background-image: url(../images/f2.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+
+.area1Img2 {
+    background-image: url(../images/f1.jpg);
+    background-size: cover ;
+    background-position: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+.area1 .button {
+    border: 2px solid #454545;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 3px;
+   
+}
+
+.area1 .button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.area1 .button:hover {
+    color: #FFF;
+    background-color: #454545;
+}
+
+/* Area 1 Fim */
