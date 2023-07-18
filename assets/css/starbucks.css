@@ -314,3 +314,51 @@ h2 {
 }
 
 /* Area 3 Fim */
+
+
+
+
+
+
+/* Area 4 */
+
+.area4 {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #e8e9ee;
+}
+
+.area4Content {
+    padding: 200px 80px;
+}
+
+.area4Text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4.button {
+    border: 2px solid #454545;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 3px;
+   
+}
+
+
+.area4.button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.area4.button:hover {
+    color: #FFF;
+    background-color: #454545;
+}
+
+.area4Img1 {
+    background-image: url(../images/bg3.jpg);
+    background-position: left;
+}
+
+/* Area 4 Fim */
