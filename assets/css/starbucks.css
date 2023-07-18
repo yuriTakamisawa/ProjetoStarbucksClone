@@ -184,3 +184,70 @@ h2 {
 }
 
 /* Area 1 Fim */
+
+
+
+
+
+/* Area 2 */
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2Content {
+    padding: 80px;
+}
+
+.bar {
+    width: 168px;
+    height: 22px;
+    background-color: #117050;
+}
+
+
+.area2Quote {
+    margin-bottom: 30px;
+    
+}
+
+.area2Text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area2Img1 {
+    height: 453px;
+    background-image: url(../images/f4.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+
+.area2Img2 {
+    background-image: url(../images/f3.jpg);
+    background-size: cover ;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.area2 .button {
+    border: 2px solid #454545;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 3px;
+   
+}
+
+.area2 .button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.area2 .button:hover {
+    color: #FFF;
+    background-color: #454545;
+}
+
+/* Area 2 Fim */
